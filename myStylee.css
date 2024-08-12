@@ -1,0 +1,67 @@
+/*global*/
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+h2,h3{
+    margin-top:  20px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    height: 100px;
+}
+
+.menu-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.link{
+    color: white !important;
+    margin-right: 20px !important;
+    text-decoration: none !important;
+}
+/*Utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+/*header*/
+header{
+    background-image: url(./File/Image/main/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    height: 400px;
+}
+
+/*main*/

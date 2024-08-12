@@ -24,18 +24,6 @@ footer{
     height: 100px;
 }
 
-.menu-flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 50px;
-}
-
-.link{
-    color: white !important;
-    margin-right: 20px !important;
-    text-decoration: none !important;
-}
 /*Utilities*/
 .container{
     width: 80%;
@@ -54,6 +42,17 @@ footer{
     letter-spacing: 2px;
 }
 
+.btn-more{
+    background-color: black;
+}
+.btn-info{
+    background-color: brown;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 /*header*/
 header{
     background-image: url(./File/Image/main/banner.jpg);
@@ -63,5 +62,34 @@ header{
     text-align: center;
     height: 400px;
 }
+.menu-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
 
+.link{
+    position: absolute;
+    color: white ;
+    margin-right: 20px;
+    text-decoration: none ;
+}
 /*main*/
+
+.blog-item{
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.course-item{
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.blog-container{
+    width: 60%;
+}
+.courses-container{
+    width: 35%;
+}
